@@ -18,16 +18,17 @@ Ce protocole d'échange est conçu avec les recommandations suivantes :
       - Le nom de ces administrateurs n'est pas révélable publiquement, mais leurs initiales sont R. L. et J.-F. C.
 
 ## Commandes:
+**Note**: les paramètres entre crochets `[param]` sont optionnels et peuvent être omis
 
-| Syntaxe           | Explications  |
-|:----------------- |:------------- |
-| 🔸                | Prêt pour partir, en attente d’un départ. |
-| 🔹 [Hx] hh:mm / N | Départ effectif, heure et nombre de personnes. Destination optionnelle, H1 la plupart du temps. |
-| 🔚 hh:mm          | Confirmation d’arrivée à destination. |
-| 🔻                | Absent ou ne participant pas au repas collectif. |
-| 🔜                |Présent mais départ différé ou indépendant. Déplacement à la destination de manière autonome. Place à réserver. |
+| Commande | Paramètres | Explications |
+|:--------- |:---------- |:------------- |
+| 🔸        |             | Prêt pour partir, en attente d’un départ. |
+| 🔹        | [*destination*] [hh:mm] / N | Départ effectif, heure et nombre de personnes. [Destination](#destinations) optionnelle, H1 la plupart du temps. |
+| 🔚        | [hh:mm]          | Confirmation d’arrivée à destination. |
+| 🔻        |        | Absent ou ne participant pas au repas collectif. |
+| 🔜        |       |Présent mais départ différé ou indépendant. Déplacement à la destination de manière autonome. Place à réserver. |
 
-## Destinations repertoriées:
+## <a id="destinations"></a>Destinations repertoriées:
 - H1
 - H2
 - H3 (très rarement utilisée)
