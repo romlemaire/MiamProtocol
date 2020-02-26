@@ -23,7 +23,8 @@ Ce protocole d'échange est conçu avec les recommandations suivantes :
 | Commande | Paramètres | Explications |
 |:--------- |:---------- |:------------- |
 | 🔸        |             | Prêt pour partir, en attente d’un départ. |
-| 🔹        | [*destination*] [hh:mm] / N | Départ effectif, heure et nombre de personnes. [Destination](#destinations) optionnelle, H1 la plupart du temps. |
+| 🔹        | [*destination*] [hh:mm] / N | Départ effectif depuis bat. 51, heure et nombre de personnes. [Destination](#destinations) optionnelle, H1 la plupart du temps. |
+| 🟦         | [*destination*] [hh:mm] / N | Départ effectif depuis bat. 50, options identiques au batiment 51. |
 | 🔚        | [hh:mm]          | Confirmation d’arrivée à destination. |
 | 🔻        |        | Absent ou ne participant pas au repas collectif. |
 | 🔜        |       |Présent mais départ différé ou indépendant. Déplacement à la destination de manière autonome. Place à réserver. |
